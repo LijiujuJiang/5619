@@ -1,0 +1,140 @@
+.BG1 {
+    background-image: url(../imgs/bg2.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+
+.Title1 {
+    overflow: hidden;
+    height: 80px;
+}
+
+.Title1 h4 {
+    float: left;
+    width: 184px;
+    height: 79px;
+    line-height: 79px;
+    margin-left: 35px;
+    margin-top: 6px;
+    font-size: 31.62px;
+    color: #3BBBA4;
+}
+
+.Title1 h6 {
+    float: left;
+    margin-left: 263px;
+    margin-top: 45px;
+    width: 198px;
+    height: 18px;
+    line-height: 18px;
+    color: #000000;
+    font-weight: 400;
+
+}
+
+.Title1 h7 {
+    font-size: 14px;
+    color: #3BBBA4;
+    text-decoration: none;
+}
+
+.Title1 h7 a {
+    color: #3BBBA4;
+}
+
+.Title1 h7 a:hover {
+    color: #3b81bb;
+}
+
+.weltitle {
+    font-size: 36px;
+}
+
+.welcome {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.icon1 {
+    overflow: hidden;
+    margin-top: 75px;
+}
+
+.icon1 .google {
+    float: left;
+    width: 76px;
+    height: 44px;
+    background-color: #fff;
+    font-size: 12px;
+    line-height: 44px;
+    border-radius: 5px;
+    border: 2px solid #DEDEDE;
+    margin-left: 225px;
+    padding-left: 50px;
+    background-image: url(../imgs/Google.png);
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position: 12px 7px;
+}
+
+.icon1 .google:hover {
+    background-color: #c6c6c6;
+}
+
+.icon1 .facebook {
+    float: left;
+    width: 76px;
+    height: 44px;
+    font-size: 12px;
+    line-height: 44px;
+    background-color: #fff;
+    border-radius: 5px;
+    border: 2px solid #DEDEDE;
+    margin-left: 10px;
+    padding-left: 50px;
+    background-image: url(../imgs/Facebook.png);
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position: 12px 7px;
+
+}
+
+.icon1 .facebook:hover {
+    background-color: #c6c6c6;
+}
+
+.icon1 a {
+    color: #000000;
+}
+
+.input1 {
+    width: 400px;
+    margin: 40px auto;
+
+}
+
+.pwd {
+    overflow: hidden;
+    width: 400px;
+    margin: 40px auto;
+}
+
+.pwd .switch {
+    float: left;
+    height: 35px;
+    line-height: 35px;
+    font-size: 12px;
+
+}
+
+.forget {
+    margin-right: 10px;
+    float: right;
+    height: 35px;
+    line-height: 35px;
+    font-size: 14px;
+    color: #3BBBA4;
+
+}
