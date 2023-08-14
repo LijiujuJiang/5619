@@ -4,12 +4,10 @@ import Login from './pages/login';
 import { Link } from 'react-router-dom';
 
 export default function App() {
-  return (
-    <div>
-      <Outlet />
+  return (
+    <div>
+      <Outlet />
 
-    </div>
-  )
+    </div>
+  )
 }
-
-

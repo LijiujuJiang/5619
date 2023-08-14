@@ -20,17 +20,28 @@ function Login() {
         }
     }
     const handleLogin = (e) => {
-        e.preventDefault()
-        if (pwdFlag == false) {
-            alert("Please enter the password")
-        } else if (emailFlag == false) {
-            alert("Please enter the email")
-        } else {
-            alert(email + "+" + password)
-            //接口
-            window.location.href = '/';
-        }
+        e.preventDefault();
+        fetch("http://localhost:80/admin/user/login", {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json"
+            },
+            body: JSON.stringify({
+                username: email,  // 使用email作为用户名
+                password: password
+            })
+        })
+        .then(response => response.json())
+        .then(data => {
+            // 根据后端的响应处理前端逻辑
+        alert(data.msg);
+            
+        })
+        .catch(error => {
+            console.error("Error:", error);
+        });
     }
+    
 
 
     return (
