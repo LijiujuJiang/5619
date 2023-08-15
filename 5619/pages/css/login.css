@@ -59,7 +59,7 @@
 
 .icon1 {
     overflow: hidden;
-    margin-top: 75px;
+    margin-top: 55px;
 }
 
 .icon1 .google {
@@ -71,7 +71,7 @@
     line-height: 44px;
     border-radius: 5px;
     border: 2px solid #DEDEDE;
-    margin-left: 225px;
+    margin-left: 290px;
     padding-left: 50px;
     background-image: url(../imgs/Google.png);
     background-repeat: no-repeat;

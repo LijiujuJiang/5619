@@ -1,7 +1,11 @@
 .navbox {
-
+    width: 100%;
     height: 79px;
-    box-shadow: 0px 4px 40px 0 rgba(0, 0, 0, 0.36);
+    box-shadow: 0px 4px 40px 0 rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    background-color: #fff;
+
 }
 
 .myHealth {
@@ -26,7 +30,7 @@ ul li {
 
     list-style: none;
     float: left;
-
+    color: black;
     font-size: 18px;
 }
 
