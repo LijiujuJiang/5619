@@ -1,0 +1,259 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.banner {
+    overflow: hidden;
+    width: 1131px;
+    height: 600px;
+
+    margin: 69px auto;
+
+}
+
+.leftbanner {
+    width: 531px;
+    height: 448px;
+
+    float: left;
+    margin: 76px 0px;
+
+}
+
+.rightbanner {
+
+    float: left;
+    width: 600px;
+    height: 600px;
+    background-image: url(../imgs/banner.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.titlebanner {
+    width: 539px;
+    height: 142px;
+    font-size: 45px;
+}
+
+.titlebanner p {
+    margin: 10px 0px;
+}
+
+.pbanner {
+    margin-top: 28px;
+    line-height: 36px;
+    width: 531px;
+    height: 151px;
+    font-size: 18px;
+}
+
+.buttonbanner {
+    margin-top: 75px;
+    width: 187px;
+    height: 52px;
+    background-color: rgba(59, 187, 164, 1);
+    color: white;
+    font-size: 14px;
+    border: 0px solid white;
+    border-radius: 5px;
+    box-shadow: 0px 4px 49px 0px rgba(0, 0, 0, 0.15);
+
+}
+
+.buttonbanner:hover {
+    background-color: #3b81bb;
+    ;
+}
+
+.intro {
+    margin: 65px auto;
+    width: 1380px;
+    height: 460px;
+
+    overflow: hidden;
+}
+
+.intro h4 {
+    margin: 0px auto;
+    width: 566px;
+    height: 61px;
+    line-height: 61px;
+    text-align: center;
+    font-size: 45px;
+}
+
+
+
+.intro li {
+    margin-top: 25px;
+    margin-right: 18px;
+    margin-left: 50px;
+
+    list-style: none;
+    float: left;
+    width: 267px;
+    height: 314px;
+    background-color: #fff;
+    border-radius: 36px;
+    box-shadow: 0px 0px 50px 0 rgba(0, 0, 0, 0.073);
+}
+
+.intro li:hover {
+    background-color: #fff5f5c6;
+}
+
+.intro li::before {
+    content: "";
+    width: 267px;
+    height: 314px;
+    position: absolute;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 4px #1cc5a6;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    z-index: -1;
+}
+
+.intro li:hover::before {
+    opacity: 1;
+}
+
+
+.intro .four {
+    margin-right: 10px;
+}
+
+.logo1 {
+    margin: 40px auto;
+    width: 70px;
+    height: 70px;
+    background-image: url(../imgs/logo1.png);
+    background-size: 100%;
+}
+
+.logoTitle {
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.logoP {
+    margin: 20px auto;
+    width: 199px;
+    height: 78px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.logo2 {
+    margin: 40px auto;
+    width: 70px;
+    height: 70px;
+    background-image: url(../imgs/logo2.png);
+    background-size: 100%;
+}
+
+.logo3 {
+    margin: 40px auto;
+    width: 70px;
+    height: 70px;
+    background-image: url(../imgs/logo3.png);
+    background-size: 100%;
+}
+
+.logo4 {
+    margin: 40px auto;
+    width: 70px;
+    height: 70px;
+    background-image: url(../imgs/logo4.png);
+    background-size: 100%;
+}
+
+.Adv {
+    width: 1238px;
+    height: 689px;
+    margin: 10px auto;
+
+    background-image: url(../imgs/food.png);
+    background-repeat: no-repeat;
+    background-size: 480px;
+    background-position: 761px 0px;
+}
+
+.AdvTitle {
+    overflow: hidden;
+    width: 672px;
+    height: 200px;
+}
+
+.AdvTitle h1 {
+    font-size: 50px;
+}
+
+.AdvTitle p {
+    margin-top: 20px;
+    width: 557px;
+    height: 120px;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.view {
+    margin-top: 65px;
+    width: 116px;
+    height: 42px;
+    line-height: 42px;
+    color: #fff;
+    background-color: #1cc5a6;
+    font-size: 14px;
+    border: 0px solid wheat;
+    border-radius: 5px;
+}
+
+.view:hover {
+    background-color: #3b81bb;
+}
+
+.foodshow {
+    margin-top: 129px;
+    height: 250px;
+    width: 100%;
+
+}
+
+.foodshow li {
+    float: left;
+    list-style: none;
+    width: 224.3px;
+    height: 230.12px;
+    background-image: url(../imgs/food1.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-right: 50px;
+    border-radius: 15px;
+    border: 0px solid white;
+    box-shadow: 10px 10px 10px 0 rgb(0 0 0 / 54%);
+    transition: transform 0.3s ease-in-out;
+}
+
+.foodshow li:hover {
+    transform: scale(1.1);
+    /* 调整放大倍数 */
+}
+
+.foodshow .food2 {
+    background-image: url(../imgs/food2.png);
+}
+
+.foodshow .food3 {
+    background-image: url(../imgs/food3.png);
+}
+
+.foodshow .food4 {
+    background-image: url(../imgs/food4.png);
+}

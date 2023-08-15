@@ -1,0 +1,146 @@
+.aboutTitle {
+    width: 474px;
+    height: 133px;
+    margin: 50px auto;
+
+}
+
+.aboutTitle h4 {
+    margin-top: 150px;
+    text-align: center;
+    font-weight: normal;
+    font-size: 40px;
+}
+
+.aboutTitle p {
+    margin-top: 8px;
+    text-align: center;
+    font-size: 38px;
+    font-weight: 700;
+}
+
+.talk {
+    width: 1233px;
+    height: 1609px;
+    margin: 10px auto;
+
+}
+
+.talk1 {
+    overflow: hidden;
+    height: 473px;
+
+}
+
+.talk1_left {
+    float: left;
+    margin-top: 20px;
+    width: 534px;
+    height: 433px;
+
+}
+
+.right1 {
+    margin-left: 124px;
+}
+
+.talk1_left h4 {
+    font-size: 28px;
+    height: 38px;
+    line-height: 38px;
+}
+
+.talk1_left p {
+    margin-top: 30px;
+    width: 534px;
+    height: 113px;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.talk1_left h6 {
+    margin-top: 10px;
+    width: 503px;
+    height: 69px;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.talk1_left .comment {
+    padding-left: 20px;
+    width: 453px;
+    height: 87px;
+    font-size: 16px;
+    border-left: 5px solid #3BBBA4;
+    color: #3BBBA4;
+}
+
+.talk1_img {
+    float: left;
+    width: 575px;
+    height: 473px;
+
+    margin-left: 124px;
+    background-image: url(../imgs/about.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-radius: 10px;
+
+}
+
+.talk2_img {
+    float: left;
+    width: 575px;
+    height: 473px;
+    background-image: url(../imgs/about1.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-radius: 10px;
+
+}
+
+.talk3_img {
+    float: left;
+    width: 575px;
+    height: 473px;
+    margin-left: 124px;
+    background-image: url(../imgs/about2.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-radius: 10px;
+
+}
+
+.talkicon {
+    float: left;
+    margin-top: 10px;
+    width: 41px;
+    height: 41px;
+
+    background-image: url(../imgs/p1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.talk1_left h7 {
+    margin-left: 15px;
+    float: left;
+    width: 121px;
+    height: 40px;
+    line-height: 20px;
+    list-style: none;
+}
+
+.talk1_left h7 .name {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.talk1_left h7 .job {
+    font-size: 13px;
+    color: #718096;
+}
+
+.empty {
+    margin-top: 95px;
+}
