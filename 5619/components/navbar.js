@@ -7,8 +7,8 @@ function Navbar() {
         <div className='navbox'>
             <h3 className='myHealth'>MyHealth</h3>
             <ul>
-                <li>Home</li>
-                <li>About us</li>
+                <Link to='/'><li>Home</li></Link>
+                <Link to='/about'><li>About us</li></Link>
                 <li>Services</li>
                 <li>Shop</li>
                 <li>User center</li>
